@@ -28,7 +28,7 @@ export class ApplicationPipelineStack extends cdk.Stack {
         oauthToken: cdk.SecretValue.secretsManager('dms_config', {
           jsonField: 'github_token'
         }),
-        owner: 'davidtucker',
+        owner: 'mstane',
         repo: 'ps-serverless-app',
         branch: 'main'
       }),
